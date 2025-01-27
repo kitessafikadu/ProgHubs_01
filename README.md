@@ -1,36 +1,14 @@
 ## Basic REST API
-```markdown
 
 
 This project is a simple RESTful API built with **Express.js** that provides secure CRUD operations for user management.
 
----
 
 ## Features
 - Add user data
 - Read user data
 - Delete user data
 
----
-
-## File Structure
-```
-ProgHubs_01/
-├── src/
-│   ├── controllers/
-│   │   ├── userController.js       # Handles CRUD operations for users
-│   ├── routes/
-│   │   ├── userRoutes.js           # Routes for user CRUD operations
-│   ├── middlewares/
-│   │   └── authMiddleware.js       # Middleware to validate basic authentication
-│   ├── models/
-│   │   └── userModel.js            # User schema and password hashing logic
-│   ├── app.js                      # Express application setup
-├── .env                             # Environment variables
-├── .gitignore                       # Files to ignore in Git
-├── package.json                     # Project dependencies and scripts
-├── index.js                        # Server entry point
-```
 
 #### Get All Users
 - **Endpoint:** `GET /users`
